@@ -1,8 +1,6 @@
 const http = require('http');
 
-const routes = require('./routes');
-
-console.log(routes.someText);
+const routes = require('./prove01-routes');
 
 const server = http.createServer(routes.handler);
 
