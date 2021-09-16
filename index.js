@@ -10,7 +10,7 @@
  * Udemy course.
  * IMPORTANT: Make sure to run "npm install" in your root before "npm start"
  * 
- * I'm at git remote -v in the team assignment
+ * I've added all changes and commited them, but it won't let me push...gotta figure that out
  *******************************************************************************/
 // Our initial setup (package requires, port number setup)
 const express = require('express');
