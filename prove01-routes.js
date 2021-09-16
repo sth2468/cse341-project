@@ -14,7 +14,7 @@ const requestHandler = (req, res) => {
     return res.end();
   }
   
-  if (url === '/users' && method === 'POST') {
+  if (url === '/users') {
     res.write('<html>');
     res.write('<head><title>Dummies</title></head>');
     res.write('<body><h1>Prove 01 Wizards & Witches User List:</h1>');
